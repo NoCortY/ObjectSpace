@@ -26,6 +26,15 @@ public class JvmTest01 {
         8632 org.jetbrains.idea.maven.server.RemoteMavenServer36
         5580 org.jetbrains.jps.cmdline.Launcher
          */
+        /**
+         * 普通的Java类在JVM中对应的是instanceKlass类的实例，再来说下它的三个字类
+         * 1. InstanceMirrorKlass(反射)：用于表示java.lang.Class，Java代码中获取到的Class对象，实际上就是这个C++类的实例，存储在堆区，学名镜像类
+         * 2. InstanceRefKlass(强、弱、虚引用)：用于表示java/lang/ref/Reference类的子类
+         * 3. InstanceClassLoaderKlass(类加载器)：用于遍历某个加载器加载的类
+         * Java中的数组不是静态数据类型，是动态数据类型，即是运行期生成的，Java数组的元信息用ArrayKlass的子类来表示：
+         * 1. TypeArrayKlass：用于表示基本类型的数组
+         * 2. ObjArrayKlass：用于表示引用类型的数组
+         */
         System.out.println("Hello JVM");
         //在Java中  数组是动态类型  区别于八种静态类型（byte char short int long float double boolean）以外
         //TypeArrayKlass
