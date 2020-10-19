@@ -1,4 +1,4 @@
-package cn.objectspace.jvmstudy;
+package cn.objectspace.a_loadclass;
 
 /**
 * @Description: 读取静态变量的底层实现

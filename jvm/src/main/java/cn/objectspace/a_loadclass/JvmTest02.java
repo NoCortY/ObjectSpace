@@ -1,4 +1,4 @@
-package cn.objectspace.jvmstudy;
+package cn.objectspace.a_loadclass;
 
 /**
 * @Description: 类加载过程
