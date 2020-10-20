@@ -1,11 +1,16 @@
 package cn.objectspace.a_loadclass;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
 * @Description: oop-klass模型
 * @Author: NoCortY
 * @Date: 2020/10/18 21:57
 */
 public class JvmTest01 {
+    String str = "str";
+    Map<String,Object> map = new HashMap<>(16);
     /**
      * @Description:  示例
      * @Param: [args]
