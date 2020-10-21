@@ -34,12 +34,12 @@ public class JvmTest01 {
          * 8.u2父类名：super_class
          * 9.u2实现的接口个数:interface_count  一个类最多能实现65535个接口
          * 10.!实现的接口 interface[]
-         * 11.u2属性数量：fields_count
-         * 12.!属性值：fields_info[]
+         * 11.u2成员属性数量：fields_count
+         * 12.!成员属性值：fields_info[]
          * 13.u2方法数量:umethods_count
          * 14.！方法值:method_info[]
-         * 15.u2属性的属性数量：attributes_count
-         * 16.属性的属性值：attributes[]
+         * 15.u2类属性的属性数量：attributes_count
+         * 16.类属性的属性值：attributes[]
          */
     }
 }
