@@ -20,6 +20,9 @@ d_javamemory:
 学习简介：class、class content、class对象、对象的区别，JVM内存模型（方法区（永久代、元空间和方法区的关系），虚拟机栈（栈帧）、程序计数器、堆区、本地方法栈、this指针何时赋值，每个区之间的关系）
 
 e_string:
-学习简介：常量池、String底层存储、字符串拼接、intern、new String和双引号 
+学习简介：常量池、String底层存储、字符串拼接、intern、new String和双引号
+
+f_runEngin：
+学习简介:Java是解释和编译语言   硬编码、热度衰减、模板编译、解释编译、混合编译 C1 C2 混合 
 
 博客：整理中
